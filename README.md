@@ -72,14 +72,37 @@ source venv/bin/activate
 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
+
+
 4️⃣ Add Environment Variables
 
 Create a .env file in the project root directory and add your Groq API key:
 
-GROQ_API_KEY=your_api_key_here ---(just edit this)
+GROQ_API_KEY= your_api_key_here ---(just edit this)
 MODEL_TEMPERATURE=0.2
 MODEL_MAX_TOKENS=400
 MODEL_TOP_P=0.5
+
+**Note :--
+🌐 Step-by-Step: Create a GROQ API Key
+1️⃣ Go to GROQ’s official site
+
+👉 https://console.groq.com
+
+2️⃣ Sign up or log in
+
+You can use your Google account or email to create a free account.
+
+3️⃣ Go to API Keys section
+
+After logging in:
+
+Click your profile icon (top-right) → API Keys
+
+Click “+ New Key” or “Create Key”
+
+4️⃣ Copy your API Key and pase in .env section
+
 
 
 🚀 Usage
