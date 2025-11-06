@@ -52,6 +52,7 @@ AI-Nutrition-Analyzer/
 
 1️⃣ Clone the Repository
 git clone https://github.com/Kuldeep-205/Major-Project.git
+
 cd Major-Project
 
 2️⃣ Create a Virtual Environment
@@ -70,6 +71,7 @@ Mac/Linux:
 source venv/bin/activate
 
 3️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
 
@@ -78,10 +80,8 @@ pip install -r requirements.txt
 
 Create a .env file in the project root directory and add your Groq API key:
 
-GROQ_API_KEY= your_api_key_here ---(just edit this)
-MODEL_TEMPERATURE=0.2
-MODEL_MAX_TOKENS=400
-MODEL_TOP_P=0.5
+GROQ_API_KEY= your_api_key_here 
+
 
 **Note :--
 🌐 Step-by-Step: Create a GROQ API Key
@@ -105,15 +105,22 @@ Click “+ New Key” or “Create Key”
 
 
 
+
+
 🚀 Usage
 
 Run the Streamlit app:
 
-streamlit run app.py
+>>  streamlit run app.py
 
 
 Then open in your browser:
 👉 http://localhost:8501
+
+
+
+
+
 
 Steps to Use:
 
