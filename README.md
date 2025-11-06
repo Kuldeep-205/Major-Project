@@ -52,7 +52,7 @@ AI-Nutrition-Analyzer/
 
 1️⃣ Clone the Repository
 git clone https://github.com/Kuldeep-205/Major-Project.git
-cd AI-Nutrition-Analyzer
+cd Major-Project
 
 2️⃣ Create a Virtual Environment
 python -m venv venv
