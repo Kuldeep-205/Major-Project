@@ -33,17 +33,6 @@ Generate and download PDF nutrition reports summarizing your analyzed meals.
 ✅ Data Persistence
 User profiles and credentials are securely stored in a local JSON database.
 
-🏗️ Tech Stack
-Category	Technology
-Frontend/UI	Streamlit (Python-based web framework)
-Backend	Python
-AI & ML	Scikit-learn, TensorFlow (for optional food recognition)
-Data Handling	OpenCV, NumPy, Pandas
-Storage	Local JSON file (users.json)
-Authentication	Password hashing using hashlib
-Environment Management	python-dotenv
-Visualization	Streamlit Components, Lottie Animations
-Deployment	Streamlit Cloud
 🧩 Project Structure
 AI-Nutrition-Analyzer/
 │
@@ -60,8 +49,9 @@ AI-Nutrition-Analyzer/
 └── users.json           # Local database for user authentication
 
 ⚙️ Installation & Setup
+
 1️⃣ Clone the Repository
-git clone https://github.com/<your-username>/AI-Nutrition-Analyzer.git
+git clone https://github.com/Kuldeep-205/Major-Project.git
 cd AI-Nutrition-Analyzer
 
 2️⃣ Create a Virtual Environment
@@ -86,7 +76,11 @@ pip install -r requirements.txt
 
 Create a .env file in the project root directory and add your Groq API key:
 
-GROQ_API_KEY=your_api_key_here
+GROQ_API_KEY=your_api_key_here ---(just edit this)
+MODEL_TEMPERATURE=0.2
+MODEL_MAX_TOKENS=400
+MODEL_TOP_P=0.5
+
 
 🚀 Usage
 
@@ -109,6 +103,7 @@ View calorie and nutrition data.
 Generate or download your meal report.
 
 Plan your next meal using the AI Meal Planner.
+
 
 📦 requirements.txt (for reference)
 streamlit
