@@ -111,7 +111,7 @@ Click “+ New Key” or “Create Key”
 
 Run the Streamlit app:
 
->>  streamlit run app.py
+streamlit run app.py
 
 
 Then open in your browser:
